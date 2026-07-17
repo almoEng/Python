@@ -115,8 +115,7 @@ def atualizar_dados():
         print(f"Erro na operação: {e}")
     finally:
         connection.close() 
-    
-
+        
 def excluir_dados():
     print('====================================================')
     print('Opção 4 - Excluir dados')
@@ -151,9 +150,8 @@ def excluir_dados():
     except Exception as e:
         print(f"Erro na operação: {e}")
     finally:
-        connection.close()      
-        
-        
+        connection.close()    
+                
 def crud():
     print('====================================================')
     print('Selecione a opção desejada')              
